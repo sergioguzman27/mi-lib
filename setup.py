@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name='chejoLib',                                            # Nombre del paquete
-    packages=['libs'],                                          # Folder del paquete
+    name='chejo_libs',                                            # Nombre del paquete
+    packages=['chejo_libs'],                                    # Folder del paquete
     version='0.1',                                              # Version de la libreria
     license='MIT',                                              # Licencia
     description='Libreria de Chejo',                            # Breve descripcion de la libreria

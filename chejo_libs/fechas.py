@@ -29,3 +29,15 @@ def get_fecha_anterior():
     now = get_fecha_now()
     ayer = now - timedelta(days=1)
     return datetime.strptime(ayer.strftime(F_DATE), F_DATE)
+
+def get_fecha_siguiente():
+    """
+    Función para calcular la fecha siguiente respecto a la fecha actual en zona horaria guatemalteca.
+    
+    Return
+    ----------
+    Fecha en formato Guatemala
+    """
+    now = get_fecha_now()
+    ayer = now + timedelta(days=1)
+    return datetime.strptime(ayer.strftime(F_DATE), F_DATE)
